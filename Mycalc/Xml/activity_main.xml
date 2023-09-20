@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/Num1"
+            android:layout_width="105dp"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Enter No1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="129dp" />
+
+        <EditText
+            android:id="@+id/Num2"
+            android:layout_width="137dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Enter No2"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="126dp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/Result"
+        android:layout_width="161dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="Result"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="40dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="49dp"
+            android:layout_height="36dp"
+            android:backgroundTint="@color/purple_500"
+            android:onClick="add"
+            android:text="+"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="49dp"
+            android:layout_height="36dp"
+            android:backgroundTint="@color/purple_500"
+            android:onClick="sub"
+            android:text="-"
+            tools:layout_editor_absoluteX="121dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="49dp"
+            android:layout_height="36dp"
+            android:backgroundTint="@color/purple_500"
+            android:onClick="mul"
+            android:text="*"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="49dp"
+            android:layout_height="36dp"
+            android:backgroundTint="@color/purple_500"
+            android:onClick="div"
+            android:text="/"
+            tools:ignore="ButtonStyle"
+            tools:layout_editor_absoluteX="298dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
